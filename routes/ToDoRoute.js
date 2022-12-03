@@ -8,7 +8,7 @@ router.get("/", getToDo);
 
 router.post("/save", saveToDo);
 
-router.post("/update", updateToDo);
+router.put("/update", updateToDo);
 
 router.delete("/delete", deleteToDo);
 
