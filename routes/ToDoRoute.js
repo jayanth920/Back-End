@@ -10,6 +10,6 @@ router.post("/save", saveToDo);
 
 router.put("/update", updateToDo);
 
-router.delete("/delete", deleteToDo);
+router.post("/delete", deleteToDo); //changed delete to post , because axios is not making delete work !!!
 
 module.exports = router;
